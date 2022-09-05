@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="bg-zinc-900 h-screen text-white">
       <div className="flex items-center justify-center h-full">
-      <HashRouter>
+      <HashRouter basename='/'>
         <Routes>
           <Route path="/" element={<TaskList />}/>
           <Route path="/create-task" element={<TaskForm />}/>
